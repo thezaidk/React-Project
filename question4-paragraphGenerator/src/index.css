@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.paraGenerator {
+    text-align: center;
+    margin: 100px;
+}
+
+.paraGenerator h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.paraGenerator input[type="number"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.paraGenerator button.generate {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.paraGenerator button.generate:hover {
+    background-color: #555;
+}
+
+.output{
+    padding: 100px;
+}

@@ -1,0 +1,65 @@
+/* styles.css */
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+#root {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.colourChangers {
+    background-color: whitesmoke;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: orange
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.default {
+    background-color: white;
+}
